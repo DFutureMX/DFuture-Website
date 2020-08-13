@@ -340,7 +340,7 @@
                         </div>
                         <div class="price_circle">
                             <p class="price_from">from mxn.</p>
-                            <p class="price">4500$</p>
+                            <p class="price">1000$</p>
                         </div>
                         <div class="price_content">
                             <p>Responsive design</p>
@@ -352,11 +352,11 @@
                 <div class="col-lg-4">
                     <div class="price_card" data-aos="fade-up">
                         <div class="price_top">
-                            <h5>Interactive website</h5>
+                            <h5>Web App</h5>
                         </div>
                         <div class="price_circle">
                             <p class="price_from">from mxn.</p>
-                            <p class="price">15000$</p>
+                            <p class="price">20000$</p>
                         </div>
                         <div class="price_content">
                             <p>Responsive design</p>
@@ -374,7 +374,7 @@
                         </div>
                         <div class="price_circle">
                             <p class="price_from">from mxn.</p>
-                            <p class="price">10000$</p>
+                            <p class="price">15000$</p>
                         </div>
                         <div class="price_content">
                             <p>Responsive design</p>
