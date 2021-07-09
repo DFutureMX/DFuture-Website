@@ -1,0 +1,894 @@
+body{
+	width: 100%;
+	background: rgb(245,245,245);
+	position: relative;
+	overflow-x: hidden;
+}
+.back{
+	position: relative;
+	width: 100%;
+	height: 210vw;
+	background-color: rgb(163,202,202);
+}
+
+.counter img{
+	position: relative;
+	z-index: 100000;
+	top: -1000px;
+}
+.title{
+	position: relative;
+	font-size: 2.9em;
+	color: rgb(245,245,245);
+	text-align: center;
+	top: 50px;
+}
+
+video{
+	position: relative;
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+.black{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 10%;
+	min-width: 80px;
+	max-width: 200px;
+	background-color: rgba(164,203,204, 0.2);
+	border-radius: 20px;
+	padding: 5px;
+}
+.logo{
+	position: relative;
+	width: 100%;
+}
+
+@media all and (min-width: 768px){
+	.black{
+		top: 20px;
+		left: 30px;
+	}
+}
+
+
+
+
+.iphones{
+	position: relative;
+	display: inline-flex;
+	width: 90%;
+	height: 200px;
+	top: 50px;
+	left: 5%;
+	z-index: 1900;
+	background: none;
+}
+.iphone1{
+	position: relative;
+	width: 20%;
+	z-index: 10;
+	visibility: hidden;
+}
+.cell1{
+	position: relative;
+	width: 100%;
+	z-index: 215;
+}
+.iphone2{
+	position: relative;
+	width: 150%;
+	left: -2%;	
+	z-index: 20;
+	background: none;
+}
+.cell2{
+	position: relative;
+	width: 110%;
+	z-index: 225;
+}
+.iphone3{
+	position: relative;
+	width: 30%;
+	z-index: 30;
+	visibility: hidden;
+}
+.cell3{
+	position: relative;
+	width: 140%;
+	left: -20%;
+	top: -30%;
+	z-index: 235;
+}
+
+.duudiphone{
+	visibility: hidden;
+	position: relative;
+	width: 100%;
+	top: 1000px;
+	height: 200vw;
+	max-width: 400px;
+	max-height: 800px;
+	margin: 0 auto;
+	background: red;
+}
+.duud{
+	position: relative;
+	width: 90%;
+	left: 5%;
+}
+.what{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	top: -200px;
+	background: rgb(245,245,245);
+	z-index: 100;
+}
+.que{
+	position: relative;
+	font-size: 2em;
+	color: rgb(163, 202, 202);
+	text-align: left;
+	line-height: 100px;
+	margin-bottom: -60px;
+	font-family: 'Paytone One', sans-serif;
+}
+.left{
+	position: relative;
+	width: 50%;
+	height: 100px;
+	left: 15%;
+	background: none;
+}
+.rect{
+	position: relative;
+	margin-top: 30px;
+}
+.right{
+	position: relative;
+	top: -680px;
+	width: 70%;
+	left: 10%;
+	background: none;
+	z-index: 3;
+}
+
+.text{
+	position: relative;
+	font-size: 1.3em;
+	color: rgb(56,56,57);
+	z-index: 300;
+	font-family: 'Avenir';
+	text-align: justify;
+}
+
+h5{
+	font-size: 1.5em
+}
+
+
+
+
+.parallax{
+	/* The image used */
+	top: 200px;
+    position: relative;
+    z-index: 998;
+    background-image: url("fondo.png");
+
+    /* Set a specific height */
+    height: 700px; 
+
+    /* Create the parallax scrolling effect */
+  
+}
+
+
+
+
+
+
+.what-2{
+	position: relative;
+	top: 300px;
+	width: 100%;
+	height: 4800px;
+	background: rgb(245,245,245);
+}
+.left-2{
+	position: relative;
+	width: 80%;
+	left: 10%;
+	top: -50px;
+	background: none;
+}
+.que2{
+	position: relative;
+	font-size: 2.5em;
+	color: rgb(163, 202, 202);
+	margin-bottom: 0px;
+	text-align: left;
+	font-family: 'Paytone One', sans-serif;
+}
+
+
+
+
+
+.conjunt{
+	position: relative;
+	width: 100%;
+	background: none;
+}
+
+.work{
+	position: relative;
+	width: 100%;
+	z-index: 10;
+}
+
+.cell4{
+	position: relative;
+	width: 70%;
+	left: 15%;
+	z-index: 10;
+}
+
+.subject{
+	position: relative;
+	width: 100%;
+	margin-bottom: 5vh;
+	font-size: .8em;
+	background: none;
+	font-family: 'Sigmar One', cursive;
+	text-align: center;
+}
+
+.line{
+	position: relative;
+	left: 30%;
+	top: -10px;
+}
+.foot{
+	position: relative;
+	top: -20px;
+	width: 100%;
+	height: 60px;
+	background: rgb(163,204,203);
+}
+.futter{
+	position: relative;
+	width: 250px;
+	height: 60px;
+	margin: 0 auto;
+	background: blue;
+	text-align: center;
+}
+h4{
+	color: white;
+	text-align: center;
+	line-height: 25px;
+}
+
+
+.scrollmagic-pin-spacer {
+    position: absolute !important;
+    clip: rect(auto, auto, auto, auto);
+}
+
+.space{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background: none;
+}
+.jumbotron{
+	position: relative;
+	top: -400px;
+	width: 100%;
+	height: 600px;
+	margin-bottom: -300px;
+}
+.contain{
+	position: relative;
+	width: 90%;
+	max-width: 800px;
+	height: 300px;
+	top: -30px;
+	background: none;
+	margin: 0 auto;
+}
+.instagram{
+	position: relative;
+}
+.images{
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	background: none;
+}
+.imagen1{
+	position: relative;
+	width: 30%;
+	border-radius: none;
+}
+.imagen2{
+	position: relative;
+	width: 30%;
+	left: 4.5%;
+}
+.imagen3{
+	position: relative;
+	width: 30%;
+	left: 9%;
+}
+.logo_duud{
+	position: relative;
+	top: 20px;
+	width: 40%;
+}
+.line2{
+	position: relative;
+	top: 50px;
+}
+.mail{
+	position: relative;
+}
+.align{
+	position: relative;
+}
+.contact{
+	position: relative;
+	top: 60px;
+	font-size: 30px;
+}
+h3{
+	position: relative;
+	font-size: 25px;
+	top: 5px;
+	left: 40px;
+}
+
+.mail2{
+	position: relative;
+	top: -60px;
+}
+.mail3{
+	position: relative;
+	top: -120px;
+}
+.mail4{
+	position: relative;
+	top: -180px;
+}
+.mail5{
+	position: relative;
+	top: -240px;
+}
+.mail6{
+	position: relative;
+	top: -300px;
+}
+.mail7{
+	position: relative;
+	top: -360px;
+}
+.mail8{
+	position: relative;
+	top: -420px;
+}
+.mail9{
+	position: relative;
+	top: -480px;
+	margin-bottom: -450px;
+}
+.social{
+	position: relative;
+	width: 100%;
+	background: none;
+	text-align: center;
+}
+.links{
+	font-size: 4em;
+}
+
+.aviso{
+	position: relative;
+	text-align: center;
+	left: -1px;
+}
+
+
+
+@media all and (min-width: 768px){
+	.align{
+		left: 30%;
+	}
+	.jumbotron{
+		height: 900px;
+	}
+}
+
+/*--------Reponsive design--------*/
+@media all and (min-width: 500px){
+	.subject{
+		font-size: 1.2em;
+	}
+	.parallax{
+		top: 20px;
+	}
+}
+@media all and (min-width: 600px){
+	.back{
+		position: relative;
+		width: 100%;
+	}
+	
+	.counter{
+		position: relative;
+		top: 20px;
+		width: 100%;
+		z-index: 20;
+		background: none;
+	}
+	.counter img{
+		position: relative;
+		width: 40%;
+		left: 7%;
+	}
+	.counter div{
+		position: relative;
+		width: 100%;
+		height: 250px;
+		background: none;
+	}
+	.title{
+		font-size: 2.9em;
+	}
+	.iphones{
+		position: relative;
+		display: inline-flex;
+		width: 90%;
+		height: 200px;
+		left: 5%;
+		z-index: 400;
+	}
+	.back{
+		height: 190vw;
+	}
+	.right{
+		top: -780px;
+	}
+
+
+	.iphone1{
+		position: relative;
+		width: 20%;
+		z-index: 10;
+		visibility: hidden;
+	}
+	.cell1{
+		position: relative;
+		width: 100%;
+		z-index: 215;
+	}
+	
+
+
+
+	.iphone2{
+		position: relative;
+		width: 150%;
+		left: -2%;	
+		z-index: 20;
+		background: none;
+	}
+	.cell2{
+		position: relative;
+		width: 110%;
+		z-index: 225;
+	}
+		
+
+
+
+
+
+	
+	
+	
+
+}
+@media all and (min-width: 700px){
+	.content2{
+		margin-top: -377%;
+	}
+	
+	.iphones{
+		top: 20vh;
+	}
+	.back{
+		height: 150vw;
+	}
+	.iphone1{
+		visibility: visible;
+	}
+	.iphone2{
+		width: 20%;
+	}
+	.iphone3{
+		width: 20%;
+		top: 5%;
+		visibility: visible;
+	}
+	.title{
+		font-size: 6em;
+	}
+	.correct{
+		left: 1%;
+	}	
+	
+	
+}
+
+
+@media all and (min-width: 768px){
+	.back{
+		position: relative;
+		z-index: 50;
+		height: 150vw;
+		background: rgb(163, 202, 202);
+	}
+
+	.counter{
+		position: relative;
+		top: 20px;
+		width: 100%;
+		z-index: 20;
+		background: none;
+	}
+	.counter img{
+		position: relative;
+		width: 10%;
+		max-width: 150px;
+		left: 7%;
+	}
+	.counter div{
+		position: relative;
+		width: 100%;
+		height: 250px;
+		background: red;
+	}
+	.title{
+		position: relative;
+		margin-top: 50px;
+		color: rgb(245,245,245);
+		text-align: center;
+		font-family: 'Paytone One', sans-serif;
+	}
+
+	.iphones{
+		position: relative;
+		display: inline-flex;
+		width: 90%;
+		height: 200px;
+		top: 
+		left: 5%;
+		z-index: 400;
+	}
+	.video{
+		position: relative;
+		top: 0px;
+	}
+
+
+
+	.iphone1{
+		position: relative;
+		width: 20%;
+		z-index: 10;
+	}
+	.cell1{
+		position: relative;
+		width: 100%;
+		z-index: 215;
+	}
+	
+
+
+
+	.iphone2{
+		position: relative;
+		width: 20%;	
+		z-index: 20;
+	}
+	.cell2{
+		position: relative;
+		width: 120%;
+		top: -40%;
+		z-index: 225;
+	}
+	
+
+
+
+
+
+	.iphone3{
+		position: relative;
+		width: 20%;
+		z-index: 30;
+		background: red;
+	}
+	.cell3{
+		position: relative;
+		width: 140%;
+		left: -20%;
+		top: -60%;
+		z-index: 235;
+	}
+	
+
+
+	.what{
+		position: relative;
+		width: 100%;
+		height: 800px;
+		background: rgb(245,245,245);
+		z-index: 100;
+	}
+
+	.left{
+		position: relative;
+		width: 50%;
+		height: 200px;
+		left: 20%;
+		background: none;
+	}
+
+	.que{
+		position: relative;
+		font-size: 4em;
+		color: rgb(163, 202, 202);
+		text-align: left;
+		line-height: 250px;
+		margin-bottom: -60px;
+		font-family: 'Paytone One', sans-serif;
+	}
+	.rect{
+		position: relative;
+		margin-top: -50px;
+	}
+	.right{
+		position: relative;
+		top: -830px;
+		width: 42%;
+		left:50%;
+		background: none;
+		z-index: 3;
+	}
+	.conjunt{
+		background: none;	
+		height: 100vh;
+		margin-top: 50vh;
+	}
+	.work{
+		width: 400px;
+		height: 800px;
+		left: 40%;
+		background: none;
+	}
+	.cell4{
+		width: 400px;
+		height: 770px;
+		left: 3%;
+	}
+	
+	.subject{
+		width: 40%;
+		top: -300px;
+
+	}
+
+	.left-2{
+		top: 100px;
+	}
+	.duudiphone{
+		visibility: visible;
+		top: 70px;
+		width: 40%;
+		left: -27vw;
+		background: none;
+	}
+	
+	
+	.parallax{
+		top: 200px;
+		height: 1000px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.what-2{
+		top: 100px;
+		height: 7000px;
+	}
+	.foot{
+		top: 600px;
+	}
+	
+	h5{
+		font-size: 1.8em
+	}
+
+}
+
+
+@media all and (min-width: 900px){
+	
+	.cell4{
+		left: 10%;
+	}
+}
+@media all and (min-width: 970px){
+	.right{
+		width: 30%;
+		left: 50%;
+	}
+	.parallax{
+		top: 100px;
+		background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	
+}
+@media all and (min-width: 1070px){
+	
+	.text{
+		font-size: 1.4em;
+	}
+	.cell4{
+		left: 15%;
+	}
+	.parallax{
+		top: 200px;
+	}
+	.left-2{
+		top: 150px;
+	}
+	
+}
+@media all and (min-width: 1170px){
+	
+	.work{
+		left: 50%;
+	}
+	.cell4{
+		left: 20%;
+	}
+	.subject{
+		left: 5%;
+		font-size: 2em;
+	}
+	
+}
+
+
+@media all and (min-width: 1220px){
+	.que2{
+		position: relative;
+		font-size: 4em;
+		color: rgb(163, 202, 202);
+		text-align: left;
+		line-height: 250px;
+		margin-bottom: -60px;
+	}
+	.parallax{
+		height: 1500px;
+	}
+	
+	h5{
+		font-size: 2.2em;
+	}
+}
+
+@media all and (min-width: 1300px){
+	.subject{
+		font-size: 2.5em;
+	}
+}
+
+@media all and (min-width: 1470px){
+	
+	.imagen{
+		position: relative;
+		height: 62vh;
+		left: 10%;
+		margin-top: 19vh;
+		z-index: 1;
+	}
+	.subject{
+		font-size: 3em;
+	}
+}
+@media all and (min-width: 1570px){
+	
+	h5{
+		font-size: 2.5em;
+	}
+	
+}
+@media all and (min-width: 1600px){
+	.text{
+		font-size: 1.7em;
+	}
+	.what{
+		height: 1000px;
+	}
+	.iphones{
+		position: relative;
+		display: inline-flex;
+		width: 90%;
+		height: 200px;
+		left: 5%;
+		z-index: 400;
+	}
+	.back{
+		height: 130vw;
+	}
+}
+
+@media all and (min-width: 1770px){
+	.text{
+		font-size: 2em;
+	}
+}
+@media all and (min-width: 1900px){
+	.text{
+		font-size: 2em;
+	}
+	.iphones{
+		position: relative;
+		display: inline-flex;
+		width: 90%;
+		height: 200px;
+		left: 5%;
+		z-index: 400;
+	}
+}
+@media all and (min-width: 2000px){
+	.imagen{
+		position: relative;
+		height: 62vh;
+		left: 9.3%;
+		margin-top: 19vh;
+		z-index: 1;
+	}
+	.text{
+		font-size: 2.1em;
+	}
+}
+
+@media all and (min-width: 2300px){
+	.iphones{
+		position: relative;
+		display: inline-flex;
+		width: 90%;
+		height: 200px;
+		left: 5%;
+		z-index: 400;
+	}
+	.text{
+		font-size: 2.4em;
+	}
+	.parallax{
+		top: 300px;
+	}
+	.left-2{
+		top: 220px;
+	}
+}
